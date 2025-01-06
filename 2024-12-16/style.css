@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin: auto;
+    justify-content: space-between;
+    background: hsl(184, 38%, 70%);
+    text-align: center;
+    height: 100px;
+    border: 3px solid hsl(184, 38%, 40%);
+    color: hsl(184, 38%, 20%);
+}
+div{
+    margin: auto;
+    width: 1100px;
+    padding: 30px;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+    background: hsl(0, 0%, 90%);
+    rotate: -2deg;
+}
+div p{
+    text-align: justify;
+}
+.table2{
+    border: 5px solid hsl(184, 38%, 35%);   
+    border-radius: 10px;
+    padding: 10px;
+    rotate: -3deg;
+}
+footer{
+    margin: auto;
+    justify-content: space-between;
+    background: hsl(184, 38%, 70%);
+    text-align: justify;
+    border: 3px solid hsl(184, 38%, 40%);
+    color:  black;
+    padding: 10px;
+}
+img{
+    width: 500px;
+    float: right;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    rotate: 5deg;
+}

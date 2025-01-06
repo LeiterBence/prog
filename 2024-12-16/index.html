@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meghívó</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Szilveszteri meghívó</h1>
+    </header>
+    <div>
+        <p>Szeretettel meghívunk téged és kedves családodat egy fergeteges szilveszteri bulira, hogy együtt búcsúztassuk az óévet és köszöntsük az új esztendőt!</p>    
+        <table>
+            <tr>
+                <th>Időpont:</th>
+                <td>2024. december 31., 20:00 órától</td>
+            </tr>
+            <tr>
+                <th>Helyszín:</th>
+                <td>Csillagfény Étterem, Napfény utca 12, Debrecen</td>
+            </tr>
+        </table>
+        <img src="szilveszer.jpg" alt="Szilveszter" title="Szilveszter">
+        <h2>Programok:</h2>
+        <table class="table2">
+            <tr>
+                <td>20:00</td>
+                <td>Érkezés, üdvözlő italok</td>
+            </tr>
+            <tr>
+                <td>21:00</td>
+                <td>Vacsora: háromfogásos menü, különleges fogásokkal</td>
+            </tr>
+            <tr>
+                <td>22:30</td>
+                <td>Játékok és szórakoztató programok: tombola, karaoke, táncverseny</td>
+            </tr>
+            <tr>
+                <td>23:45</td>
+                <td>Visszaszámlálás és pezsgős koccintás</td>
+            </tr>
+            <tr>
+                <td>00:00</td>
+                <td>Tűzijáték és újévi köszöntés</td>
+            </tr>
+            <tr>
+                <td>00:30</td>
+                <td>Tánc és mulatság hajnalig, DJ Szilveszter zenéjével</td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p>Kérjük, jelezd részvételi szándékodat legkésőbb december 20-ig ( ennyi időd van még:<span id="demo"></span> ) az alábbi elérhetőségek egyikén:</p>
+        <script>    
+            var countDownDate = new Date("Dec 20, 2024 00:00:00").getTime();
+            
+            var x = setInterval(function() {
+            
+              var now = new Date().getTime();
+                
+              var distance = countDownDate - now;
+                
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+              document.getElementById("demo").innerHTML = days + " nap  " + hours + " óra "
+              + minutes + " perc " + seconds + " másodperc ";
+                
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+            </script>
+        <p>Telefon: +36 30 123 4567</p>
+        <p>E-mail: szilveszter@party.hu</p>
+        <p>Várunk szeretettel!</p>
+        <p>Forrás:</p>
+        <ul>
+            <li>Kép: <a href="https://www.hunguesthotels.hu/hu/szilveszteri_ajanlatok/">https://www.hunguesthotels.hu/hu/szilveszteri_ajanlatok/</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

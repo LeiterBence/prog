@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>táblázatok</title>
+    </head>
+    <body>
+        <p>Ez egy három soros és négy oszlopos táblázat</p>
+        <table border="1">
+            <tr>
+                <td>Eladás</td>
+                <td>Alma</td>
+                <td>Körte</td>
+                <td>Banán</td>
+            </tr>
+            <tr>
+                <td>Kg</td>
+                <td>200</td>
+                <td>150</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>Ft</td>
+                <td>75000</td>
+                <td>60000</td>
+                <td>85000</td>
+            </tr>
+        </table>
+
+        <p>cellák összevonása egy sorban</p>
+        <table border="1">
+            <tr>
+                <td>valami</td>
+                <td colspan="2">valami</td>
+                <!--összevont cella-->
+            </tr>
+            <tr>
+                <td>valami</td>
+                <td>valami</td>
+                <td>valami</td>
+            </tr>
+            <tr>
+                <td>valami</td>
+                <td>valami</td>
+                <td>valami</td>
+            </tr>
+        </table>
+        
+        <p>cellák összevonása egy sorban</p>
+        <table border="1">
+            <tr>
+                <td>valami</td>
+                <td>valami</td>
+                <td>valami</td>
+            </tr>
+            <tr>
+                <td>valami</td>
+                <td rowspan="2">valami</td>
+                <td>valami</td>
+            </tr>
+            <tr>
+                <td>valami</td>
+                <!-- összevont cella -->
+                <td>valami</td>
+            </tr>
+        </table>
+        
+        <p>Órarend</p>
+
+        <table border="1">
+            <tr>
+                <th colspan="5">Ideiglenes Órarend</th>
+                <!-- összevont cella -->
+                <!-- összevont cella -->
+                <!-- összevont cella -->
+                <!-- összevont cella -->
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <!-- összevont cella -->
+                <th>Hétfő</th>
+                <th>Kedd</th>
+                <th>Szerda</th>
+            </tr>
+            <tr>
+                <th>1.</th>
+                <th>07 <sup>40</sup>- 08 <sup>25</sup></th>
+                <td>matek</td>
+                <td>tesi</td>
+                <td>fizika</td>
+            </tr>
+            <tr>
+                <th>2.</td>
+                <th>08 <sup>30</sup>- 09 <sup>15</sup></th>
+                <td>töri</td>
+                <td rowspan="2">infó</td>
+                <td>matek</td>
+            </tr>
+            <tr>
+                <th>3.</td>
+                <th>09 <sup>25</sup>- 10 <sup>10</sup></th>
+                <td rowspan="2">magyar</td>
+                <!-- összevont cella -->
+                <td>angol</td>
+            </tr>
+            <tr>
+                <th>4.</td>
+                <th>10 <sup>20</sup>- 11 <sup>05</sup></th>
+                <!-- összevont cella -->
+                <td>angol</td>
+                <td>magyar</td>
+            </tr>
+        </table>
+        
+        <p>Saját órarend</p>
+        <table border="1">
+            <tr>
+                <th colspan="7">Órarend</th>
+            </tr>
+            <tr>
+                <th colspan="2"></th>
+                <th>Hétfő</th>
+                <th>Kedd</th>
+                <th>Szerda</th>
+                <th>Csütörtök</th>
+                <th>Péntek</th>
+            </tr>
+                <th>1.</th>
+                <th>07<sup>40</sup>-08<sup>25</sup></th>
+                <td rowspan="3">Informatika és távk</td>
+                <td>Testnevelés</td>
+                <td></td>
+                <td>Testnevelés</td>
+                <td></td>
+            <tr>
+                <th>2.</th>
+                <th>08 <sup>30</sup>-09<sup>15</sup></th>
+                <td>Osztályfőnöki</td>
+                <td>Testnevelés</td>
+                <td rowspan="2">Angol nyelv</td>
+                <td rowspan="2">Irodalom</td>
+            </tr>
+            <tr>
+                <th>3.</th>
+                <th>09<sup>25</sup>-10<sup>10</sup></th>
+                <td>Honvédelem</td>
+                <td rowspan="2">Matematika</td>
+            </tr>
+            <tr>
+                <th>4.</th>
+                <th>10 <sup>20</sup>-11 <sup>05</sup></th>
+                <td rowspan="2">Programozás a. gy.</td>
+                <td>Komplex természettud</td>
+                <td>Komplex természettud</td>
+                <td>Történelem</td>
+            </tr>
+            <tr>
+                <th>5.</th>
+                <th>11<sup>05</sup>-12<sup>00</sup></th>
+                <td>Matematika</td>
+                <td>Komplex természettud</td>
+                <td>Magyar nyelv</td>
+                <td>Komplex természettud</td>
+            </tr>
+            <tr>
+                <th>6.</th>
+                <th>12<sup>20</sup>-13<sup>05</sup></th>
+                <td rowspan="2">IKT projektmunka</td>
+                <td>Történelem</td>
+                <td>Történelem</td>
+                <td>Matematika</td>
+                <td>Testnevelés</td>
+            </tr>
+            <tr>
+                <th>7.</th>
+                <th>13<sup>10</sup>-13<sup>55</sup></th>
+                <td>Magyar nyelv</td>
+                <td rowspan="2">Angol nyelv</td>
+                <td rowspan="2">Digitális kúltúra</td>
+            </tr>
+            <tr>
+                <th>8.</th>
+                <th>14<sup>00</sup>- 14<sup>55</sup></th>
+            </tr>
+        </table>
+    </body>
+</html>

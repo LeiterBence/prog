@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(30, 40, 50);
+    margin: 100px;
+}
+header{
+    color: white;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+footer{
+    margin: auto;
+    width: 800px;
+    font-size: 200%;
+    text-align: right;
+    color: #fff;
+    padding: 10px;
+}
+a:link{
+    color: white;
+}
+a:hover{
+    color: rgb(200, 200, 200);
+}
+a:visited{
+    color: rgb(150, 170, 200);
+}
+a:active{
+    color: red;
+}
+table{
+    font-size: 150%;
+    width: 700px;
+    margin: auto;
+}
+td{
+    padding: 10px;
+}
+tr:nth-child(3n){
+    background-color: rgb(150, 170, 200);
+}
+tr:nth-child(3n+1){
+    background-color: white;
+}
+tr:nth-child(3n+2){
+    background-color: rgb(200, 200, 200);
+}
+tr:first-child, tr:last-child{
+    background-color: black;
+    color: white;
+}

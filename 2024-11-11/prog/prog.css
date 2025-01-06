@@ -1,0 +1,25 @@
+body{
+    background-image: url(hatter.jpg);
+    background-attachment: 0 fixed;
+    color: white;
+    border:3px solid grey;
+}
+p{
+    margin: 10px;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}
+ul{
+    list-style-image: url(nyil.jpg);
+}
+.szurke{
+    color:gray
+}
+.dolt{
+    font-style: italic;
+}
+#mas{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

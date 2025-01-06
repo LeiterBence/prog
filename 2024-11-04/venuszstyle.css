@@ -1,0 +1,35 @@
+body{
+    background-image: url(virag_ikon.png);
+    background-repeat: repeat-x;
+    background-color: rgb(220, 230, 250);
+    text-align: justify;
+}
+
+table{
+    background-color: rgb(30, 80, 120);
+    color: rgb(255, 255, 255);
+    border: 1px;
+    width: 50%;
+    margin: auto    ;
+    text-align: center;
+}
+img{
+    height: 150px;
+    text-align: center;    
+}
+p{
+    margin-left: 75px;
+    margin-right: 30px;
+}
+h1{
+    margin-top: 85px;
+    text-align: center;
+}
+h2{
+    margin-left: 30px   ;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
