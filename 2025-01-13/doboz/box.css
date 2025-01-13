@@ -1,0 +1,48 @@
+body{
+    background-color:powderblue;
+}
+header,footer{
+    background-color: rgb(120, 0, 0);
+    color:white;
+    margin: 10px;
+    height: 50px;
+}
+
+div{
+    background-color: rgba(255, 220, 255, 0.8);
+    border: 5px solid darkred;
+    padding: 10px;
+}
+div p{
+    text-align: justify;
+}
+div#box1{
+    width: 30%;
+    float: left;
+    height: 500px;
+    margin: 10px 10px 10px 40px;
+    padding-left: 200px;
+}
+div#box2{
+    width: 30%;
+    float: right;
+    height: 500px;
+    margin: 10px 40px 10px 10px;
+    padding-right: 200px;
+}
+div#box3{
+    clear: both;
+    margin: 0 20px 10px 20px;
+}
+div#box4{
+    clear: right;
+    width: 45%;
+}
+div#box5{
+    float: right;
+    width: 45%;
+}
+footer{
+    clear: both;
+    text-align: right;
+}
